@@ -1,0 +1,68 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+h2 {
+  font-family: fantasy;
+}
+
+.minibio img {
+  width: 70%;
+  height: auto;
+}
+
+.minibio {
+  float:center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.bandas ul {
+  list-style-type: square;
+  font-size: 110%;
+  font-family: sans-serif;
+}
+
+.portfolio img {
+  width: 70%;
+  height: auto;
+}
